@@ -187,3 +187,27 @@
 html {
   font-size: var(--font-size);
 }
+
+/* Hero explicit typography overrides */
+.hero-hi,
+.hero-name,
+.hero-role { font-family: 'Raleway', sans-serif; }
+.hero-hi { font-weight:700; font-size:clamp(1.75rem,5vw,40px); line-height:1.1; }
+.hero-name { font-weight:700; font-size:clamp(3rem,11vw,80px); line-height:1; white-space:nowrap; }
+.hero-role { font-weight:800; font-size:clamp(1.25rem,4vw,25px); line-height:1.15; }
+@media (min-width:1024px){
+  .hero-hi { font-size:40px; }
+  .hero-name { font-size:80px; }
+  .hero-role { font-size:25px; }
+}
+
+.skill-icon--css {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@media (max-width: 767px) {
+  .skill-icon--css {
+    transform: scale(0.85);
+  }
+}
