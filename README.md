@@ -27,7 +27,7 @@ A modern one-page portfolio derived from a Figma concept and implemented with Re
 Prereqs: Node.js 18+ and npm 9+.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/matheeshapathirana/matheesha-portfolio.git
 cd matheesha-portfolio
 npm install
 npm run dev
