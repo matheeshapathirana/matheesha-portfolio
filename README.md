@@ -63,7 +63,6 @@ Run `npm run build`, then host the `dist/` directory on any static provider (Ver
 
 ## Attributions
 
-- Design source: internal Figma file (see `src/Attributions.md` for full design references).
 - Icons by [Lucide](https://lucide.dev/) under ISC.
 - UI primitives powered by [Radix UI](https://www.radix-ui.com/).
 
