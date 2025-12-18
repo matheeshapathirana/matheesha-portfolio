@@ -259,14 +259,18 @@ export default function App() {
                 </p>
               </div>
 
-              <button className="bg-black text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors mx-auto lg:mx-0 w-full sm:w-auto">
+              <a
+                href={new URL("./CV/Matheesha CV.pdf", import.meta.url).toString()}
+                download="Matheesha CV.pdf"
+                className="bg-black text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors mx-auto lg:mx-0 w-full sm:w-auto"
+              >
                 <svg className="w-6 h-6" fill="none" preserveAspectRatio="none" viewBox="0 0 20 19">
                   <path d="M10.0002 12.791L10.0002 0.75" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
                   <path d={svgPaths.p31fcc480} stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
                   <path d={svgPaths.p21aeb580} stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
                 </svg>
                 Download CV
-              </button>
+              </a>
             </div>
           </div>
         </div>
